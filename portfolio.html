@@ -3,39 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>hw-2-Portfolio</title>
+        <title>hw-3-portfolio</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
-        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
         <link rel="stylesheet" href="./css/slyles.css">
     </head>
 
     <body>
-        <!-- шапка сайта -->
-        <header>
-    
-            <!-- главная навигация -->
-            <nav>
-                <a href="./index.html" class="logo">
-                    <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
-                </a>
-                <ul class="site-nav list">
-                    <li><a href="./index.html" class="link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-                    <li><a href="" class="link">Контакты</a></li>
-            
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <!-- главная навигация -->
+                <nav class="site-nav">
+                    <a href="./index.html" class="logo">
+                        <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
+                    </a>
+                    <ul class="site-nav-list list">
+                        <li class="site-nav-list-item"><a href="./index.html" class="link">Студия</a></li>
+                        <li class="site-nav-list-item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                        <li class="site-nav-list-item"><a href="" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <!-- ссылки на почти и телефон -->
+                <ul class="contacts list">
+                    <li class="contact-item"><a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a>
+                    </li>
+                    <li><a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a></li>
                 </ul>
-            
-            </nav>
-            
-            <!-- ссылки на почти и телефон -->
-            <ul class="contacts list">
-                <li><a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link-contacts">+38 096 111 11 11</a></li>
-            </ul>
+            </div>
         </header>
         <main>
-            <!-- примеры работ -->
+
+            <!-- PORTFOLIO -->
             <section>
                 <h1>Примеры работ</h1>
                 <!-- фильтр по примерам работ -->
@@ -87,17 +87,27 @@
             </section>
         </main>
 
-        <!-- футер -->
+        <!-- FOOTER -->
         <footer class="footer">
-            <!-- лого -->
-            <a href="./index.html" class="logo">
-                <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
-            </a>
-            <address>
-                <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="mailto:info@example.com" class="footer-mail">info@example.com</a> <br />
-                <a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a>
-            </address>
+            <div class="container">
+                <a href="./index.html" class="logo">
+                    <span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span>
+                </a>
+                <address class="address">
+                    <ul class="address-list list">
+                        <li class="address-list-item">
+                            <p class="address-list-address">г. Киев, пр-т Леси Украинки, 26</p>
+                        </li>
+                        <li class="address-list-item">
+                            <a href="mailto:info@example.com" class="address-list-mail">info@example.com</a> <br />
+                        </li>
+                        <li class="address-list-item">
+                            <a href="tel:+380991111111" class="address-list-tel">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        
         </footer>
     </body>
 </html>
