@@ -45,7 +45,8 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 
-  /* outline: 1px solid red; */
+  /* outline: 1px solid red;
+  background-color: aquamarine; */
 }
 
 /* ==========COMPONENTS========== */
@@ -196,6 +197,11 @@ img {
 .hero-button {
   background-color: var(--accent-color);
 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  width: 200px;
+  height: 50px;
   margin-top: 30px;
 }
 
@@ -395,8 +401,12 @@ img {
 
 /* ==========PORTFOLIO========== */
 
-/* портфолио */
-/* примеры работ (фильтр) */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* фильтр */
 .filter-button {
   background-color: var(--gray-background);
   color: var(--title-text-color);
@@ -406,6 +416,7 @@ img {
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-align: center;
+  border-radius: 4px;
 }
 
 .filter-button:hover,
@@ -414,7 +425,18 @@ img {
   color: var(--white-color);
 }
 
+.portfolio-filter-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 /* примеры работ */
+
 .examples-name {
   color: var(--title-text-color);
 
@@ -422,6 +444,9 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 20px;
+  padding-left: 24px;
 }
 
 .examples-direction {
@@ -429,6 +454,20 @@ img {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+
+  padding-left: 24px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-list-item {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
 }
 
 /* ==========PORTFOLIO END========== */
