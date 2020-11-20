@@ -59,6 +59,7 @@ img {
 
 .header {
   padding: 32px 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -445,8 +446,8 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
-  padding-left: 24px;
+  /* margin-top: 20px; */
+  /* padding-left: 24px; */
 }
 
 .examples-direction {
@@ -455,7 +456,7 @@ img {
   line-height: 1.9;
   letter-spacing: 0.03em;
 
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
 .portfolio-list {
@@ -468,6 +469,10 @@ img {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
+}
+
+.card-info {
+  padding: 20px 24px;
 }
 
 /* ==========PORTFOLIO END========== */
