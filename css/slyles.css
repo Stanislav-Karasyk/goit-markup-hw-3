@@ -200,6 +200,7 @@ img {
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
   width: 200px;
   height: 50px;
@@ -418,6 +419,8 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
 }
 
 .filter-button:hover,
@@ -445,9 +448,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
-  /* margin-top: 20px; */
-  /* padding-left: 24px; */
 }
 
 .examples-direction {
@@ -455,8 +455,6 @@ img {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-
-  /* padding-left: 24px; */
 }
 
 .portfolio-list {
